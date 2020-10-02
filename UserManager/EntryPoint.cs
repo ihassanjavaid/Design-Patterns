@@ -8,7 +8,7 @@ namespace UserManager
         {
             Console.WriteLine("Hello!");
 
-            User user = new User("XYZ");
+            /*User user = new User("XYZ");
             //user.SetName("ABC");
             Console.WriteLine("Hello " + user.getName());
             Console.ReadKey();
@@ -20,7 +20,13 @@ namespace UserManager
 
             User user1 = new User();
 
-            user1 = new Faculty();
+            user1 = new Faculty();*/
+
+            IUser user;
+
+            user = new Faculty();
+
+            user = new Admin();
 
         }
     }

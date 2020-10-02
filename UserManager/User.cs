@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace UserManager
 {
-    class User
+
+    interface IUser
+    {
+        void display();
+    }
+
+    public abstract class User
     {
         string name { get; set; }
 

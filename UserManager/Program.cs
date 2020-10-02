@@ -8,10 +8,7 @@ namespace UserManager
 {
     class Program
     {
-        /*static void Main(string[] args)
-        {
-        }*/
-
+       
         public void Display()
         {
             Console.WriteLine("Hello World!");
