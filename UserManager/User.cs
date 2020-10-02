@@ -8,7 +8,32 @@ namespace UserManager
 {
     class User
     {
-        public string Name { get; set; }
+        string Name { get; set; }
+
+        public User(string Username)
+        {
+            this.Name = Username;
+        }
+
+        public User()
+        {
+
+        }
+
+        public void SetName(string user_name)
+        {
+            this.Name = user_name;
+        }
+
+        public string getName()
+        {
+            return this.Name;
+        }
+
+    }
+
+    class Faculty
+    {
 
     }
 }
