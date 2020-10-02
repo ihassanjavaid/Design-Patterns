@@ -31,9 +31,4 @@ namespace UserManager
         }
 
     }
-
-    class Faculty
-    {
-
-    }
 }

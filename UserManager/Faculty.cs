@@ -1,0 +1,7 @@
+﻿namespace UserManager
+{
+    class Faculty
+    {
+
+    }
+}
