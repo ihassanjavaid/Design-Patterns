@@ -8,11 +8,11 @@ namespace UserManager
 {
     class User
     {
-        string Name { get; set; }
+        string name { get; set; }
 
         public User(string Username)
         {
-            this.Name = Username;
+            this.name = Username;
         }
 
         public User()
@@ -20,14 +20,19 @@ namespace UserManager
 
         }
 
-        public void SetName(string user_name)
+        public void setName(string user_name)
         {
-            this.Name = user_name;
+            this.name = user_name;
         }
 
         public string getName()
         {
-            return this.Name;
+            return this.name;
+        }
+
+        public void display()
+        {
+            Console.WriteLine("Hello " + this.name);
         }
 
     }

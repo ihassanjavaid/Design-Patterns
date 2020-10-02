@@ -16,6 +16,12 @@ namespace UserManager
             Faculty facultyUser = new Faculty();
             facultyUser.display();
 
+            // Is-a Relationship
+
+            User user1 = new User();
+
+            user1 = new Faculty();
+
         }
     }
 }

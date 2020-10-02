@@ -1,6 +1,6 @@
 ﻿namespace UserManager
 {
-    class Faculty
+    class Faculty : User
     {
 
     }
