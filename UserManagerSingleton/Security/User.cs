@@ -13,6 +13,7 @@ namespace UserManagerSingleton.Security
 
         private User()
         {
+            Count++;
             Console.WriteLine("Instance " +Count+ " is created!");
         }
 
@@ -24,7 +25,7 @@ namespace UserManagerSingleton.Security
             if (Instance != null)
                 return Instance;
 
-            Count++;
+         
             Instance = new User();
             return Instance;
         }
