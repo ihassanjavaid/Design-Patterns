@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Remoting.Messaging;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -22,12 +23,23 @@ namespace UserManagerSingleton.Security
 
         public static User getInstance()
         {
-            if (Instance != null)
+            /*if (Instance != null)
                 return Instance;
 
          
             Instance = new User();
-            return Instance;
+            return Instance;*/
+
+            /*if (Instance == null)
+                Instance = new User();
+            return Instance;*/
+
+            return Instance ?? method();
+        }
+
+        private static User method()
+        {
+            return Instance = new User();
         }
     }
 }

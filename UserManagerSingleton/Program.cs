@@ -23,8 +23,6 @@ namespace UserManagerSingleton
             User user3 = User.getInstance();
             user3.userName = "XYZ";
 
-
-
             Console.ReadKey();
         }
     }
