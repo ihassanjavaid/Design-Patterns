@@ -37,9 +37,6 @@ namespace UserManagerSingleton.Security
             return Instance ?? method();
         }
 
-        private static User method()
-        {
-            return Instance = new User();
-        }
+        private static User method() => Instance = new User();
     }
 }
