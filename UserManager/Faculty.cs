@@ -4,7 +4,7 @@
     {
         public void display()
         {
-            throw new System.NotImplementedException();
+            System.Console.WriteLine("Faculty");
         }
     }
 
@@ -12,7 +12,7 @@
     {
         public void display()
         {
-            throw new System.NotImplementedException();
+            System.Console.WriteLine("Admin");
         }
     }
 }

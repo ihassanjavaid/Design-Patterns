@@ -12,7 +12,7 @@ namespace UserManager
         void display();
     }
 
-    public abstract class User
+    public abstract class User : IUser
     {
         string name { get; set; }
 

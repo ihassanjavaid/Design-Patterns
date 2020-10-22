@@ -22,11 +22,16 @@ namespace UserManager
 
             user1 = new Faculty();*/
 
+            
             IUser user;
 
             user = new Faculty();
 
+            user = null;
+
             user = new Admin();
+
+            Console.ReadKey();
 
         }
     }
